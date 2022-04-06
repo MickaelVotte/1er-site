@@ -1,0 +1,93 @@
+/* color */
+.color1 {color: #000000;}
+.color2 {color: #180e17;}
+.color3 {color: #454b5d;}
+.color4 {color: #8a809f;}
+.color5 {color: #cfd0ea;}
+
+
+
+/* element */
+*{
+    list-style-type: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: #180e17;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    padding:3rem;
+    margin: 0 auto;
+    font-size: 2.5rem;
+
+}
+
+h2{
+    color: #8a809f;
+    text-align: center;
+    margin: 10rem 0 10rem 0;
+}
+ul{
+    text-align: center;
+}
+
+p{
+    margin: 10rem;
+    text-align: center;
+}
+/* navbar */
+
+
+.navbar{
+    border-bottom: 2px solid black;
+    text-align: center; 
+    background-color:#cfd0ea; 
+    border-radius: 10px; 
+}
+
+.inline{
+    display: inline-block;
+    padding: 2rem;
+    margin: 18px 1rem 10px 1rem;
+    font-size: 1.5rem;
+    background-color: #e0d5f8;
+    border-radius: 100px;
+}
+
+.martin{
+    margin: 5% 50%;
+    position: relative;
+    left:-12rem;
+}
+
+/* section biographie */
+
+
+.bio, .film, .coup-coeur, .fiche{
+    padding: 10px;
+    margin: 10px;
+    line-height: 2;
+
+}
+
+
+.bio{
+    margin-top: 6rem;
+}
+
+/* section film */
+
+.trois{
+    text-align: center;
+    margin: 3rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.tentation, .loup, .irishman{
+    margin: 10rem;
+}
