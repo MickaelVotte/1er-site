@@ -1,74 +1,132 @@
 /* color */
-.color1 {color: #000000;}
-.color2 {color: #180e17;}
-.color3 {color: #454b5d;}
-.color4 {color: #8a809f;}
-.color5 {color: #cfd0ea;}
+.color1 {
+    color: #000000;
+}
+
+.color2 {
+    color: #180e17;
+}
+
+.color3 {
+    color: #454b5d;
+}
+
+.color4 {
+    color: #8a809f;
+}
+
+.color5 {
+    color: #cfd0ea;
+}
 
 
 
 /* element */
-*{
+* {
+    line-height: 2;
     list-style-type: none;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a{
-    color: #180e17;
+body {
+    margin: 0;
+}
+
+a {
+    color: #a1a5af;
     text-decoration: none;
+    text-align: center;
+
 }
 
-h1{
+a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+h1 {
     text-align: center;
-    padding:3rem;
+    padding: 3rem;
     margin: 0 auto;
     font-size: 2.5rem;
 
 }
 
-h2{
+h2 {
     color: #8a809f;
     text-align: center;
-    margin: 10rem 0 10rem 0;
+    margin: 10rem 0 7rem 0;
+    background-color: #cfd0ea;
+    font-size: 2.5rem;
 }
-ul{
+
+h2:hover {
+    background-color: rgb(3, 3, 3);
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+ul {
     text-align: center;
 }
 
-p{
+p {
     margin: 3rem;
     text-align: center;
-    
+
 }
+
+iframe {
+    margin-left: 30%
+}
+
 /* navbar */
 
 
-.navbar{
+.navbar {
     border-bottom: 2px solid black;
-    text-align: center; 
-    background-color:#cfd0ea; 
-    border-radius: 10px; 
+    text-align: center;
+    background-color: #e0d5f8;
+    border-radius: 10px;
 }
 
-.inline{
+.navbar:hover {
+    background-color: rgb(107, 100, 100);
+    transition: 0.5s;
+}
+
+.inline {
     display: inline-block;
     padding: 2rem;
     margin: 18px 1rem 10px 1rem;
     font-size: 1.5rem;
-    background-color: #e0d5f8;
+    background-color: #ffffff;
     border-radius: 100px;
 }
 
-.martin{
-    margin: 5% 50%;
-    position: relative;
-    left:-12rem;
+.inline:hover {
+    background-color: #000000;
+    color: white;
+    transition: 0.5s;
+}
+
+.portrait {
+    width: 25rem;
+    margin: 5rem auto;
+}
+
+.martin {
+    width: 100%;
+    height: auto;
 }
 
 /* section biographie */
 
 
-.bio, .film, .coup-coeur, .fiche{
+.bio,
+.film,
+.coup-coeur,
+.fiche {
     padding: 10px;
     margin: 10px;
     line-height: 2;
@@ -76,25 +134,93 @@ p{
 }
 
 
-.bio{
+.bio {
     margin-top: 6rem;
 }
 
 /* section film */
 
-.trois{
+.trois {
     text-align: center;
     margin: 3rem;
     font-weight: bold;
     color: #000000;
 }
 
-.affiche{
+.affiche {
     margin: 10rem;
 }
 
-.taxi{
+.taxi {
     display: flex;
-    
-   margin: 7rem auto 7rem auto;
+
+    margin: 7rem auto 7rem auto;
+}
+
+.filmcoeur {
+    margin: 5rem 0 7rem 0;
+}
+
+.taxitrailer {
+    margin-left: 45%;
+
+}
+
+/* formulaire */
+
+/* .formulaire {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #e0d5f8;
+} */
+
+
+.formulaire {
+    width: 500px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background-color: #e0d5f8;
+    margin: 0 auto 5rem auto;
+
+
+}
+
+form,
+.mik {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
+    background-color: #e0d5f8;
+}
+
+
+
+
+.contactcouleur {
+    background-color: #e0d5f8;
+}
+
+.button {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 2rem auto;
+    cursor: pointer;
+    background-color: #cfd0ea;
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    transition: 0.5s;
+
 }
