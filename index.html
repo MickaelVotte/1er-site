@@ -13,9 +13,10 @@
 </head>
 
 <body>
-    <header>
+    <header >
+        
         <nav class="navbar">
-            <div class="navdeco">
+            <div>
                 <ul>
                     <li class="inline"><a href="#bio">Biographie</a></li>
                     <li class="inline"><a href="#3films">Les 3 plus grands films</a></li>
@@ -153,8 +154,13 @@
                             <input type="email" id="mail" name="email" placeholder="exemple@outlook.com" />
                         </div>
                         <div class="mik">
-                            <label for="object">Object:</label>
-                            <input type="select" id="select" name="select" placeholder="object" />
+                            <label for="film-select">votre film préféré:</label>
+                            <select name="films" id="film-select">
+                                <option value="La Dernière tentation du Christ">La Dernière tentation du Christ</option>
+                                <option value="Le Loup de Wall street">Le Loup de Wall street</option>
+                                <option value="Les Affranchis">Les Affranchis</option>
+                                <option value="Taxi Driver">Taxi Driver</option>
+                            </select>
                         </div>
                     </div>
 
@@ -162,7 +168,7 @@
                     <div class="mik">
                         <label class="commentaire" for="commentaire">commentaire:</label>
 
-                        <textarea name="commentaire" id="commentaire" placeholder="écrivez votre commentaire ici"
+                        <textarea name="commentaire" id="commentaire" placeholder="écrivez votre commentaire ici."
                             cols="50" rows="10"></textarea>
                     </div>
                     <div>
@@ -175,7 +181,7 @@
 
             </div>
 
-
+            
 
         </div>
 

@@ -1,26 +1,5 @@
-/* color */
-.color1 {
-    color: #000000;
-}
 
-.color2 {
-    color: #180e17;
-}
-
-.color3 {
-    color: #454b5d;
-}
-
-.color4 {
-    color: #8a809f;
-}
-
-.color5 {
-    color: #cfd0ea;
-}
-
-
-
+ 
 /* element */
 * {
     line-height: 2;
@@ -36,6 +15,7 @@ a {
     color: #a1a5af;
     text-decoration: none;
     text-align: center;
+    text-shadow: 1px 1px 1px rgb(236, 226, 30); 
 
 }
 
@@ -46,7 +26,6 @@ a:hover {
 
 h1 {
     text-align: center;
-    padding: 3rem;
     margin: 0 auto;
     font-size: 2.5rem;
 
@@ -56,7 +35,7 @@ h2 {
     color: #8a809f;
     text-align: center;
     margin: 10rem 0 7rem 0;
-    background-color: #cfd0ea;
+    background-color: #e0d5f8;
     font-size: 2.5rem;
 }
 
@@ -72,7 +51,10 @@ ul {
 
 p {
     margin: 3rem;
-    text-align: center;
+    text-align: justify;
+   
+    
+    
 
 }
 
@@ -113,11 +95,13 @@ iframe {
 .portrait {
     width: 25rem;
     margin: 5rem auto;
+    padding-right: 7.5rem;
 }
 
 .martin {
-    width: 100%;
+    width: 140%;
     height: auto;
+    margin: 5rem auto;
 }
 
 /* section biographie */
