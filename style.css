@@ -36,8 +36,9 @@ ul{
 }
 
 p{
-    margin: 10rem;
+    margin: 3rem;
     text-align: center;
+    
 }
 /* navbar */
 
@@ -88,6 +89,12 @@ p{
     color: #000000;
 }
 
-.tentation, .loup, .irishman{
+.affiche{
     margin: 10rem;
+}
+
+.taxi{
+    display: flex;
+    
+   margin: 7rem auto 7rem auto;
 }
